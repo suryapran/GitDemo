@@ -39,10 +39,10 @@ public class base {
 		System.out.println(url1);
 		
 	
-		System.out.println("my browser 0  "+browserName);
-		System.out.println("my browser 0   "+browserName);
-		System.out.println("my browser 0   "+browserName);
-		System.out.println("my browser 0   "+browserName);
+		System.out.println("my browser dev  "+browserName);
+		System.out.println("my browser dev   "+browserName);
+		System.out.println("my browser dev   "+browserName);
+		System.out.println("my browser dev   "+browserName);
 		
 		
 		
