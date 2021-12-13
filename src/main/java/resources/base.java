@@ -32,17 +32,17 @@ public class base {
 		//String browserName=System.getProperty("browser");// This is get browser name from maven system.
 		String browserName=pr.getProperty("browser"); // This is get browser name from .properties file
 		url1=pr.getProperty("url");
-		System.out.println("my browser 1   "+browserName);
-		System.out.println("my browser 2   "+browserName);
-		System.out.println("my browser 3   "+browserName);
-		System.out.println("my browser 4  "+browserName);
+		System.out.println("my browser 0   "+browserName);
+		System.out.println("my browser 0   "+browserName);
+		System.out.println("my browser 0   "+browserName);
+		System.out.println("my browser 0  "+browserName);
 		System.out.println(url1);
 		
 	
-		System.out.println("my browser 5   "+browserName);
-		System.out.println("my browser 6   "+browserName);
-		System.out.println("my browser 7   "+browserName);
-		System.out.println("my browser 8   "+browserName);
+		System.out.println("my browser 0  "+browserName);
+		System.out.println("my browser 0   "+browserName);
+		System.out.println("my browser 0   "+browserName);
+		System.out.println("my browser 0   "+browserName);
 		
 		
 		
