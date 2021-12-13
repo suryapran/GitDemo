@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+			<listeners>
+				<listener class-name="Academy.Listeners"/>
+				
+			</listeners>
+
+		  <test thread-count="5" name="Validating Navigation bar displayed or not">
+		    <classes>
+		      <class name="Academy.validateNavigationBar"/>
+		     </classes>
+		   </test>
+      
+      
+	       	<test thread-count="5" name="Validating login or not">
+			    <classes>
+			       <class name="Academy.HomePage"/>
+			     </classes>
+	  		 </test>
+      
+         	<test thread-count="5" name="Validating text in home page">
+			    <classes>
+			       <class name="Academy.validateTitle"/>
+			     </classes>
+		   </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
